@@ -1,0 +1,192 @@
+/* global styling */
+a, label, option, li{
+  font-family: 'Rubik', sans-serif;
+}
+h1,h2, h3, .form-control{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* Header styling */
+.nav-item{
+  padding: 10px; 
+  width: 100%;
+ }
+.nav-link:hover{
+  color: #990606;
+  text-decoration: underline;
+  font-weight: 600;
+}  
+.navbar-brand{
+    width: 100%;
+    height: 130px;
+}
+.nav-link{
+  font-size: 22px;
+  width: 120px;  
+}
+.navbar-brand img{
+  width: auto;
+  height: 100%;
+  border-radius: 80%;
+  margin-left: 8%;
+    
+}
+/* Masthead styling */
+.masthead{
+  height: 100vh;
+  background-image: url("../img/vegetarian-pizza_4988.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.masthead div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,.5);
+  height: 100%;
+}
+.masthead div h1{
+  font-size: 95px;
+  color: #9c0505;
+  text-align: center;
+  text-shadow: 3px 1px 3px #f4f4f4;
+}
+/* Menu styling, 3 pizzas options */
+.menu{
+  display: flex;
+  text-align: center;
+}
+.menu h2{
+  color: rgb(45, 123, 28);
+  text-align: center;
+  text-shadow: 3px 2px 3px #131212;
+  font-size: 45px;
+  
+}
+.opt2 h2{
+  color: rgb(244, 249, 242);
+  text-shadow: 3px 1px 3px #0d0d0d;
+}
+.opt3 h2{
+  color: rgb(218, 29, 16);
+  text-shadow: 3px 1px 3px #0d0d0d;
+}
+.opt1{
+  background-image: url("../img/Healthy-Vegan-Pizza.jpg");
+  background-size: cover;
+  width: 33.6%;
+  height: 500px;
+}
+.opt1:hover{
+  filter: grayscale(60%);
+}
+.opt2{
+  background-image: url("../img/Veggie-4.jpg");
+  background-size: cover;
+  width: 33.6%;
+  height: 500px;;  
+}
+.opt2:hover{
+  filter: grayscale(60%);
+  }
+.opt3{
+  background-image: url("../img/Veggie-3.jpg");
+  background-size: cover;
+  width: 33.6%;
+  height: 500px;
+}
+.opt3:hover{
+  filter: grayscale(60%);
+}
+/* Form Styling */
+.form-horizontal{
+  background-color: #2a850b;
+  padding: 8%;
+    
+}
+.link{
+  font-size: 1.4em;
+  text-decoration: none;
+  margin-top: 20px;
+  align-items: center;
+  padding-left: 150px;
+  color: #990606;
+      
+}
+.link:hover{
+  color: blue;
+  font-size: 1.5em;
+  text-decoration: underline;
+  text-shadow: none;
+      
+}
+
+.form-group input:hover{
+  background-color: blue;
+  color: #f4f4f4;
+}
+.form-group2 p{
+  color: #9c0505;
+}
+.col-sm-2{
+  width: 100%;
+  margin-top: 3%;
+  font-size: 1.1em;
+}
+.btn{
+  background-color: rgb(255, 0, 0,0.7);
+  color:rgb(255, 251, 251);
+  font-size: 1.0em;
+}
+.btn:hover{
+  background-color: rgb(45, 123, 28);
+  color:rgb(255, 251, 251);
+  font-size: 1.1em;
+}
+
+.form-row{
+  background-color: #0e0e0e;
+  }
+.container{
+ padding: 55px;
+}
+/* footer styling */
+.foot{
+  display: flex;
+  padding: 25px;
+  background-color:#9c0505 ;
+}
+.foot menu{
+  padding: 25px;
+  margin-left: 5%;
+}
+.foot menu li{
+  list-style: none;
+  color: #f4f4f4;
+  font-size: 1.0em;
+}
+.foot menu li:hover{
+  color: rgb(45, 123, 28); 
+  font-weight: 700;
+}
+.last{
+  margin-top: 2%;
+  margin-left: 10%;
+}
+.last h3{
+  color: #f4f4f4;
+  margin-bottom: 3%;
+  font-size: 1.0em;
+}
+.last h4{
+  color: #f4f4f4;
+  font-size: 1.0em;
+}
+.bi{
+  color: #f4f4f4;
+  margin-left: 2%;
+  font-size: 1.2em;
+}
+.bi:hover{
+  color: #1b1a1a;
+  font-size: 1.2em;  
+}
